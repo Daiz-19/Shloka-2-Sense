@@ -38,11 +38,15 @@ A Transformer-based Sanskrit-to-English Translation Tool
 ---
 
 ## 🧠 Model
-- Pretrained base: `facebook/mbart-large-50-many-to-many-mmt`
-- Fine-tuned version: [`arshdeepawar/mbart-sanskrit-en`](https://huggingface.co/arshdeepawar/mbart-sanskrit-en)
-- Language tags:
+
+- **Fine-tuned model originally used**: `arshdeepawar/mbart-sanskrit-en` *(now unavailable on Hugging Face)*
+- **Base model**: `facebook/mbart-large-50-many-to-many-mmt`
+- **Training data**: ~93,000 Sanskrit-English sentence pairs from the *Itihasa* dataset
+- **Language codes used**:
   - Source (Sanskrit): `hi_IN` (used as proxy)
   - Target (English): `en_XX`
+
+> 📝 **Note**: At the time of development, the model was available and used successfully for training and inference. However, it is currently inaccessible via the Hugging Face link. You can adapt the code to use other publicly available models such as [`Swamitucats/M2M100_Sanskrit_English`](https://huggingface.co/Swamitucats/M2M100_Sanskrit_English) if needed.
 
 ---
 
