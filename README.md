@@ -100,3 +100,14 @@ iface = gr.Interface(
 
 iface.launch()
 ```
+
+---
+
+## Acknowledgements
+
+This project was made possible thanks to the following open-source tools and datasets:
+
+- 🤗 [Hugging Face Transformers](https://huggingface.co/transformers) – for pre-trained models and training pipeline
+- 🤗 [Hugging Face Hub](https://huggingface.co/) – for hosting and sharing models (`arshdeepawar/mbart-sanskrit-en`)
+- [`rahular/itihasa`](https://huggingface.co/datasets/rahular/itihasa) – Sanskrit-English parallel corpus
+- [Gradio](https://gradio.app) – for building the interactive UI
